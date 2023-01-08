@@ -33,24 +33,38 @@ if __name__ == '__main__':
     draw_background()
 
     # TODO 1) Create an empty list of turtles
-
+    turtles = []
     # TODO 2) Create a new turtle and set its shape to 'turtle
-
-    # TODO 3) Set the turtle's speed to 3
-
-    # TODO 4) Set the turtle's pen up
-
-    # TODO 5) Use the turtle's goto() method to set its position on the left
-    #  side of the screen
-
+    for c in range(8):
+        bob = turtle.Turtle()
+        bob.shape("turtle")
+        # TODO 3) Set the turtle's speed to 3
+        bob.speed(3)
+        # TODO 4) Set the turtle's pen up
+        bob.penup()
+        # TODO 5) Use the turtle's goto() method to set its position on the left
+        #  side of the screen
+        bob.goto(-400, c * 55 - 195)
+        turtles.append(bob)
     # TODO 6) use a loop to repeat the previous instructions and create
     #  8 turtles lined up on the left side of the screen
     #  *HINT* click on the window to print the corresponding x, y location
 
     # TODO 7) Move each turtle forward a random distance between 1 and 20
-
+    for bob in turtles:
+        bob.forward(random.randint(1, 20))
     # TODO 8) Create a loop to keep moving each turtle until a turtle
     #  crosses the finish line
+    while True:
+        winner = False
+        for (idx, bob) in enumerate(turtles):
+            bob.forward(5)
+            if bob.xcor() >= 347:
+                print("Turtle " + str(idx) + " won")
+                winner = True
+                break
+        if winner:
+            break
     #  *HINT* click on the window to print the corresponding x, y location
 
     # TODO 9) When a turtle crosses the finish line, stop the race and
