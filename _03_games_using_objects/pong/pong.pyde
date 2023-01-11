@@ -13,7 +13,7 @@ def setup():
     # 2. Make a global ball variable, for example:
     global ball
     # 3. Initialize your ball variable to a new Ball(), for example:
-    ball = Ball()
+    ball = Ball(100)
     # 4. Make a global paddle variable.
     global paddle
     # 5. Initialize your paddle variable to a new Paddle() for example:

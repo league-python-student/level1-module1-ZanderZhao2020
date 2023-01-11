@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b11165ea-fcaa-421a-8cca-6acc7963c3d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_01_creating_objects/_b_intro_to_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_creating_objects/_b_intro_to_objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_creating_objects/_c_turtle_race.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_creating_objects/_c_turtle_race.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_object_constructor/_b_MinionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_object_constructor/_b_MinionTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_object_constructor/_c_netflix_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_object_constructor/_c_netflix_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_03_games_using_objects/Frogger/Frogger.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/_03_games_using_objects/Frogger/Frogger.pyde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_03_games_using_objects/pong/pong.pyde" beforeDir="false" afterPath="$PROJECT_DIR$/_03_games_using_objects/pong/pong.pyde" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Zander/Documents/GitHub/level1-module1-ZanderZhao2020",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zander/Documents/GitHub/level1-module1-ZanderZhao2020&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python._c_netflix_queue">
     <configuration name="_b_intro_to_objects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="level1-module1-ZanderZhao2020" />
